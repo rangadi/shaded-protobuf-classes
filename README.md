@@ -23,8 +23,10 @@ Common build tools like _mvn_, _bazel_, _sbt_, and others support shading.
 
 The jar file can be inspected with a Java decompiler like [JD-GUI](http://java-decompiler.github.io/).
 The generated classes should have import statements that look similar to
-`import org.sparkproject.spark-protobuf.protobuf.AbstractMessage;`.
-The following screenshot for `AppEvent` class illustrates this:
+```
+   import org.sparkproject.spark-protobuf.protobuf.AbstractMessage;
+```
+as shown in screenshot for `AppEvent` below:
 
 
 <img width="600" alt="java decompiler screenshot for AppEvent" src="https://user-images.githubusercontent.com/502522/211994068-aab71ad7-e655-4f94-9b62-04fb5e67f328.png">
