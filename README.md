@@ -1,6 +1,6 @@
 # shaded-protobuf-classes
 
-This project creates shaded Java classes for Protobuf files placed in [src/main/protobuf](src/main/protobuf) directory. These classes are suitable for use with (Protobuf functions in Spark)[https://github.com/apache/spark/blob/master/python/pyspark/sql/protobuf/functions.py].
+This project creates shaded Java classes for Protobuf files placed in [src/main/protobuf](src/main/protobuf) directory. These classes are suitable for use with [Protobuf functions in Spark](https://github.com/apache/spark/blob/master/python/pyspark/sql/protobuf/functions.py).
 
 Java class support in Spark Protobuf connector requires the classes to be shaded. Specifically references to `com.google.protobuf.*` classes should rewritten to `org.sparkproject.spark-protobuf.protobuf.*`.
 
