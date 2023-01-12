@@ -1,0 +1,1 @@
+# shaded-protobuf-classes
