@@ -15,9 +15,9 @@ This is project is useful to generate shaded classes in adhoc manner for a set o
 ### How to create shaded Java classes for your Protobufs
 
   * Clone this repo
-  * Add Protobuf files to `src/main/protobuf` directory.
+  * Add Protobuf files to `src/main/protobuf` directory
   * Run `mvn clean package`
-  * Once the above is successful, `target/shaded-protobuf-classes-1.0.jar` contains shaded Java classes.
+    * Once the above is successful, `target/shaded-protobuf-classes-1.0.jar` contains shaded Java classes.
   
 ### How to verify proper shading
 
