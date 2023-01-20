@@ -66,6 +66,7 @@
                         <configuration>
                             <protocArtifact>com.google.protobuf:protoc:${protobuf.version}</protocArtifact>
                             <protocVersion>${protobuf.version}</protocVersion>
+                            <includeMavenTypes>direct</includeMavenTypes>
                         </configuration>
                     </execution>
                 </executions>
