@@ -6,7 +6,7 @@ This project creates shaded Java classes for Protobuf files placed in
 
 Java class support in Spark Protobuf connector requires the classes to be shaded.
 Specifically references to `com.google.protobuf.*` classes should be rewritten to
-`org.sparkproject.spark-protobuf.protobuf.*`.
+`org.sparkproject.spark_protobuf.protobuf.*`.
 
 This project is useful to generate shaded classes in adhoc manner for a set of Protobuf files.
 Production use cases utilize build system support for generating Java classes and shading them.
@@ -24,7 +24,7 @@ Common build tools like _mvn_, _bazel_, _sbt_, and others support shading.
 The jar file can be inspected with a Java decompiler like [JD-GUI](http://java-decompiler.github.io/).
 The generated classes should have import statements that look similar to
 ```
-   import org.sparkproject.spark-protobuf.protobuf.AbstractMessage;
+   import org.sparkproject.spark_protobuf.protobuf.AbstractMessage;
 ```
 as shown in screenshot for `AppEvent` below:
 
