@@ -28,5 +28,4 @@ The generated classes should have import statements that look similar to
 ```
 as shown in screenshot for `AppEvent` below:
 
-
-<img width="600" alt="java decompiler screenshot for AppEvent" src="https://user-images.githubusercontent.com/502522/211994068-aab71ad7-e655-4f94-9b62-04fb5e67f328.png">
+<img width="800" alt="java decompiler screenshot for AppEvent" src="https://user-images.githubusercontent.com/502522/218614201-a8ee7cfe-a7f1-4444-a7b9-1a8925feaac9.png">
